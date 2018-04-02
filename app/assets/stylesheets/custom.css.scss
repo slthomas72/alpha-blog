@@ -39,36 +39,13 @@ $navbar-default-bg: black;
   background-color: black;
 }
 
-.footer{
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
-}
 
-footer a:hover {
-  color: #222;
-}
-
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
-}
 
 .article-meta-details {
   border-top: 1px solid #eaeaea;
   margin-top: 15px;
-
 }
+
 
 .article-actions {
 
@@ -102,6 +79,37 @@ footer ul li {
 
 }
 
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
+
+
 .bgvid{
   background-size: cover;
+}
+
+.footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
