@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   get 'about', to: "pages#about"
   get 'signup', to: "users#new"
   resources :users, except: [:new]
+  get 'login', to: 'sessions#new'
+  post 'login', to: 'sessions#create'
+  delete 'logout', to: 'sessions#destroy'
   resources :articles #this will give you all the paths new, edit, update, delete, show, index article paths
 
 end
