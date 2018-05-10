@@ -9,5 +9,8 @@ Rails.application.routes.draw do
   post 'login', to: 'sessions#create'
   delete 'logout', to: 'sessions#destroy'
   resources :articles #this will give you all the paths new, edit, update, delete, show, index article paths
+  resources :categories, except: [:destroy]
+
+
 
 end
